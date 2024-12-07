@@ -24,7 +24,6 @@ public class NettyServer {
             .childHandler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel ch) {
-                    logger.info("======connect...========");
                     ch.pipeline().addLast(new ConnectionHandler());
                 }
             });
