@@ -28,6 +28,9 @@ public class NettyServer {
             });
 
             ChannelFuture cf = sb.bind(8080).sync();
+            if (cf != null) {
+                logger.info("=====start Server"=========);
+            }
             cf.channel().closeFuture().sync();
 
         } catch (InterruptedException err) {
