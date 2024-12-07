@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class NettyServer {
      private static final Logger logger = LogManager.getLogger(NettyServer.class);
     public void startServer() {
-        EventLoopGroup bossGrop = new NioEventLoopGroup();
+        EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
         try {
@@ -31,10 +31,10 @@ public class NettyServer {
             cf.channel().closeFuture().sync();
 
         } catch (InterruptedException err) {
-            logger.info(err.toString());
+             logger.error("Error occurred while starting the server", err);
         } finally {
             workerGroup.shutdownGracefully();
-            bossGrop.shutdownGracefully();
+            bossGroup.shutdownGracefully();
         }
     }
 }
