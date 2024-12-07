@@ -30,7 +30,7 @@ public class NettyServer {
             ChannelFuture cf = sb.bind(8080).sync();
             cf.channel().closeFuture().sync();
 
-        } catch (Exception err) {
+        } catch (InterruptedException err) {
             logger.info(err.toString());
         } finally {
             workerGroup.shutdownGracefully();
