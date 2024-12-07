@@ -19,7 +19,7 @@ public class ConnectionHandler extends ChannelInboundHandlerAdapter {
         if (msg instanceof ByteBuf) {
             ByteBuf buf = (ByteBuf) msg;
 
-            String message = buf.toStringj(io.netty.util.CharsetUtil.UTF_8);
+            String message = buf.toString(io.netty.util.CharsetUtil.UTF_8);
 
             logger.info("客户端消息: {}", message);
             buf.release();
