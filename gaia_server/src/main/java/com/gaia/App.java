@@ -1,7 +1,7 @@
 package com.gaia;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.gaia.Server.NettyServer;
+import com.gaia.server.NettyServer;
 
 /**
  * Gaia
