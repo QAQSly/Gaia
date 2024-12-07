@@ -1,4 +1,4 @@
-package com.gaia.Server
+package com.gaia.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
