@@ -9,6 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import com.gaia.nettyHandler.ConnectionHandler;
 
 public class NettyServer {
     private static final Logger logger = LogManager.getLogger(NettyServer.class);
@@ -23,7 +24,7 @@ public class NettyServer {
             .childHandler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel ch) {
-                    // ch.pipeline().addLast(new BusinessHandler());
+                    ch.pipeline().addLast(new ConnectionHandler());
                 }
             });
 
