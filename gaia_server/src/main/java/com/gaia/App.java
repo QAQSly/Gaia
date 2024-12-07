@@ -1,6 +1,7 @@
 package com.gaia;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import com.gaia.Server.NettyServer;
 
 /**
  * Gaia
@@ -12,8 +13,8 @@ public class App
 
     public static void main( String[] args )
     {
-        logger.info("hellow world");
-        System.out.println("hello world");
+        logger.info("========开启服务============");
+        new NettyServer().startServer();
     }
 
 }

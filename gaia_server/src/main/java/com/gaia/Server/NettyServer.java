@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 public class NettyServer {
      private static final Logger logger = LogManager.getLogger(NettyServer.class);
-    public void StartServer() {
+    public void startServer() {
         EventLoopGroup bossGrop = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
