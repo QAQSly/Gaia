@@ -11,8 +11,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class NettyServer {
-     private static final Logger logger = LogManager.getLogger(NettyServer.class);
-    public void startServer() {
+    private static final Logger logger = LogManager.getLogger(NettyServer.class);
+    public static void startServer() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
