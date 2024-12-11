@@ -55,6 +55,15 @@
         <artifactId>netty-all</artifactId>
         <version>4.1.68.Final</version> <!-- 确保使用最新的版本 -->
     </dependency>
+
+  
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.36</version>
+		<scope>provided</scope>
+	</dependency>
+
   </dependencies>
   <build>
     <resources>

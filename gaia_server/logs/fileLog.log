@@ -4,3 +4,1204 @@
 16:23:32.406 [main] INFO  com.gaia.App - hellow world
 16:24:11.943 [main] INFO  com.gaia.App - hellow world
 16:26:31.701 [main] INFO  com.gaia.App - hellow world
+20:06:49.470 [main] INFO  com.gaia.App - ========开启服务============
+20:08:29.414 [main] INFO  com.gaia.App - ========开启服务============
+20:12:24.139 [main] INFO  com.gaia.App - ========开启服务============
+20:13:32.551 [main] INFO  com.gaia.App - ========开启服务============
+20:14:54.204 [main] INFO  com.gaia.App - ========开启服务============
+20:19:00.404 [main] INFO  com.gaia.App - ========开启服务============
+20:19:00.550 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+20:32:56.343 [main] INFO  com.gaia.App - ========开启服务============
+20:32:56.509 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+20:36:43.646 [main] INFO  com.gaia.App - ========开启服务============
+20:36:43.782 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+20:40:32.493 [main] INFO  com.gaia.App - ========开启服务============
+20:40:32.669 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+20:42:42.277 [nioEventLoopGroup-3-1] INFO  com.gaia.server.NettyServer - ======connect...========
+20:42:42.279 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /60.204.232.146:37884
+20:57:45.847 [nioEventLoopGroup-3-2] INFO  com.gaia.server.NettyServer - ======connect...========
+20:57:45.848 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /157.66.219.241:43186
+20:57:45.924 [nioEventLoopGroup-3-2] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+21:10:09.072 [nioEventLoopGroup-3-3] INFO  com.gaia.server.NettyServer - ======connect...========
+21:10:09.073 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:55174
+21:10:14.292 [nioEventLoopGroup-3-4] INFO  com.gaia.server.NettyServer - ======connect...========
+21:10:14.293 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:59944
+21:10:19.342 [nioEventLoopGroup-3-1] INFO  com.gaia.server.NettyServer - ======connect...========
+21:10:19.342 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:59946
+21:10:24.500 [nioEventLoopGroup-3-2] INFO  com.gaia.server.NettyServer - ======connect...========
+21:10:24.500 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:35528
+21:25:06.100 [nioEventLoopGroup-3-3] INFO  com.gaia.server.NettyServer - ======connect...========
+21:25:06.100 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /38.46.220.87:40880
+21:47:07.800 [nioEventLoopGroup-3-4] INFO  com.gaia.server.NettyServer - ======connect...========
+21:47:07.801 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:55264
+21:47:12.806 [nioEventLoopGroup-3-1] INFO  com.gaia.server.NettyServer - ======connect...========
+21:47:12.807 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:58742
+21:47:17.824 [nioEventLoopGroup-3-2] INFO  com.gaia.server.NettyServer - ======connect...========
+21:47:17.824 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:58756
+21:47:22.873 [nioEventLoopGroup-3-3] INFO  com.gaia.server.NettyServer - ======connect...========
+21:47:22.874 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:38024
+21:53:50.255 [main] INFO  com.gaia.App - ========开启服务============
+21:53:50.398 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+21:57:32.102 [nioEventLoopGroup-3-1] INFO  com.gaia.server.NettyServer - ======connect...========
+21:57:32.105 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22121
+21:57:47.724 [nioEventLoopGroup-3-1] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:20:09.843 [main] INFO  com.gaia.App - ========开启服务============
+22:20:09.994 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+22:20:29.288 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22424
+22:20:29.322 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:21:14.308 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:33:41.875 [main] INFO  com.gaia.App - ========开启服务============
+22:33:42.022 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+22:33:58.723 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22229
+22:33:58.760 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:34:16.301 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:34:46.824 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22401
+22:34:46.842 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:35:09.376 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:35:19.321 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22490
+22:35:19.338 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:35:32.709 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:36:23.829 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.158.222:22660
+22:36:23.846 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+17:30:23.389 [main] INFO  com.gaia.App - ========开启服务============
+17:30:23.564 [main] INFO  com.gaia.server.NettyServer - =====start Server=========
+17:30:44.954 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:27660
+17:30:44.989 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+17:31:02.080 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+17:31:24.444 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:27719
+17:31:24.471 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+17:31:42.894 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+17:32:23.484 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:27865
+17:32:23.506 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+17:32:34.663 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+17:34:41.106 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28151
+17:34:41.122 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+17:35:02.855 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+17:36:03.019 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:38616
+17:36:03.020 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+17:36:08.017 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:38624
+17:36:08.018 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+17:36:13.014 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:44328
+17:36:13.015 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+17:36:18.007 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:44342
+17:36:18.009 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+17:39:04.850 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.112:34606
+17:39:04.851 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+17:39:09.882 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.112:39474
+17:39:09.883 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+17:39:14.873 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.112:39490
+17:39:14.874 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+17:39:19.876 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.112:45684
+17:39:19.878 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+17:45:56.594 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:46642
+17:45:59.246 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:33380
+17:45:59.278 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.1
+User-Agent: curl/7.29.0
+Host: 106.75.240.117
+Accept: */*
+
+
+17:46:01.875 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:51730
+17:46:01.937 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: OPTIONS / HTTP/1.0
+
+
+17:46:04.763 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:39880
+17:46:05.307 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: OPTIONS / RTSP/1.0
+
+
+17:46:08.359 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:33566
+17:46:08.417 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+17:46:11.670 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:55968
+17:46:11.739 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  � 
+google.com PGET / HTTP/1.0
+
+
+17:46:14.612 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:46222
+17:46:14.836 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    root 
+17:46:17.848 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:38714
+17:46:17.995 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 
+
+
+17:46:20.793 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:58644
+17:46:20.953 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  �  �e���G��]���������W@�����  *�,�+�0�/ � ��$�#�(�'�
+�	�� � � = < 5 / 
+  U       
+            #     	http/1.1   �  
+17:46:23.937 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:53146
+17:46:23.970 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  �  �� ;�`���XlF�9>#'�������7��� E�RɴX��_Bk?T|�Ӧ��:+8�>� &�/�0�+�,̨̩��	��
+ � � / 5� 
+  {       
+ 
+           �      + 	 3 & $   >s��OP�x#�l&���q��=�O9�,�DC�4
+17:46:26.959 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:43890
+17:46:27.085 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �  (r�        �� �|                    
+17:46:29.921 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:37214
+17:46:29.957 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: PRI * HTTP/2.0
+
+SM
+
+        
+17:46:32.951 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:59290
+17:46:33.057 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:           versionbind   
+17:46:35.820 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:51454
+17:46:35.932 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  *(�       wwwbaiducom     )       
+17:46:38.865 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45622
+17:46:39.011 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:             
+17:46:41.913 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:33398
+17:46:42.038 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: AMQP  	
+17:46:44.821 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:50542
+17:46:44.927 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:     
+17:46:47.621 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:39634
+17:46:47.647 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: t3 12.1.2
+AS:2048
+HL:19
+
+
+17:46:50.300 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:56194
+17:46:50.391 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: HELP
+
+17:46:53.081 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:43700
+17:46:53.227 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   S  O ?G���,��`~� ��{�Ֆ�w����<=�o�n  (   
+ f   e d c b a `   	      
+17:46:56.064 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:56502
+17:46:56.125 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   *%�     Cookie: mstshash=nmap
+     
+17:46:59.240 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45718
+17:46:59.274 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   �           
+17:47:02.178 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:33304
+17:47:02.259 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   i  eU��random1random2random3random4   / 
+  9  �  0  , *   
+17:47:05.051 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:48418
+17:47:05.140 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    qj�n0�k��
+��^0\� P� �NM�0� �0krbtgtNM�19700101000000Z��٨0
+17:47:07.824 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:37386
+17:47:07.936 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    ��SMB@                                           1234567890123456$         1234567890123456p                     ,                                           
+17:47:10.620 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:55744
+17:47:10.642 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    ��SMBr    @              @    � PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 
+17:47:13.411 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:42106
+17:47:13.470 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: l          
+17:47:16.330 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:54674
+17:47:16.525 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: default
+
+17:47:19.391 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:41236
+17:47:19.422 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: ����version     f   GH�        	=Z    	                 ��YKI �                         ģA���/Satoshi:0.15.1/    
+17:47:22.081 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:53678
+17:47:22.253 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 0�   -c�   $ 
+ 
+  d �objectClass0�    
+17:47:24.938 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:38280
+17:47:25.070 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 0` � 
+17:47:27.756 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:53292
+17:47:27.981 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+17:47:30.864 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:42292
+17:47:30.906 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: INVITES sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+17:47:33.699 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:57358
+17:47:33.754 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: TNMP   TNME   
+17:47:36.491 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:42518
+17:47:36.525 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   �     
+17:47:39.423 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:59100
+17:47:39.472 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: ��JoinåNodes�UserStateLen ��Addr�          ����8�Incarnation�Meta��Name�DESKTOP-NR8TTVR�Port�
+�State �Vsn�   
+17:47:42.294 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45908
+17:47:42.312 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: index        �    
+17:47:45.118 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:59746
+17:47:45.181 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: <?xml version='1.0'?><stream:stream xmlns:stream='http://etherx.jabber.org/streams' xmlns='jabber:client' xml:lang='ru-RU' to='.' version='1.0'>
+17:47:47.919 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45660
+17:47:47.967 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  � +<M            �� none                                                            ppap                                                            
+17:47:50.731 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:59910
+17:47:50.762 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �x#   .�=���$ �'��������WE$e�V�>\�
+17:47:53.419 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:44464
+17:47:53.455 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: #   !:62710*fd135ge@&yt_02123456
+17:47:56.260 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:60042
+17:47:56.351 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �    anonymous_command_on          
+17:47:59.010 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:48608
+17:47:59.079 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    
+   ���  
+17:48:01.796 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:34568
+17:48:01.938 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: {"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"YOUR_WALLET_ADDRESS","pass":"x","agent":"XMRig/6.20.0-C3Pool","algo":["cn/1"],"algo-perf":{"cn/1":63.32038223248976}}}
+
+17:48:04.890 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:50374
+17:48:04.957 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: EXAMPLE.COM
+
+17:48:07.947 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:38518
+17:48:08.009 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: � `                       ��
+17:48:10.857 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:53394
+17:48:11.052 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: ����  ]         I   223.75.123.71	IP	USER	LOGON	QWRtaW4=	QWRtaW4=		65536	UTF-8	805306367	1
+
+
+
+17:48:13.868 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:41452
+17:48:13.988 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    a
+4.6.2.3"	8798306680
+17:48:16.870 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:56206
+17:48:16.909 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 2W   2C   wx^ j ��2J      `{"@timestamp":"2023-11-10T16:31:19.3549634+08:00","message":"t","offset":1000,"type":"filebeat"} 6�
+17:48:19.709 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45558
+17:48:19.758 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:    m   i{"code":105,"language":"GO","version":317,"opaque":2,"flag":0,"remark":"","extFields":{"topic":"TBW102"}}
+17:48:22.756 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:34908
+17:48:22.846 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: HELF;       ������           opc.tcp://85.214.126.3:4840
+17:48:25.804 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:50564
+17:48:25.875 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:          
+17:48:28.515 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:37244
+17:48:28.538 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: )       {"Type":"Auth","Payload":{"Version":"2"}}
+17:48:31.232 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:52126
+17:48:31.265 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:       0.26.0   0.26.10202cb962ac59075b964b07152d234b70
+17:48:34.111 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:39098
+17:48:34.145 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �t    + 
+17:48:36.930 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:54028
+17:48:36.962 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   �    � ��
+
+17:48:39.858 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:41222
+17:48:39.973 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: DmdT           ��
+17:48:42.981 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:57654
+17:48:43.023 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: :   /     @  =            /         @                 
+17:48:45.829 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:45852
+17:48:45.997 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: JRMI K
+17:48:48.873 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:35662
+17:48:49.091 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:   �����   MMS                    ����    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   �m�_
+17:48:51.979 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:51312
+17:48:52.038 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  Z     6,   �      :                4�           (CONNECT_DATA=(COMMAND=version))
+17:48:54.718 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:35656
+17:48:54.822 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  4            ( � U   MSSQLServer H  
+17:48:57.650 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:51710
+17:48:57.685 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: stats
+
+17:49:00.355 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:37672
+17:49:00.391 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �     �  SQLDB2RA      �     �   	     @   	     @        @        @   @     @        @        @        @        @         @         �        �        �        �        @        @        �        �        @   	     @   	     �        �                   �                                 @         @                             �                     �                   
+17:49:03.069 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:51018
+17:49:03.109 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:               
+17:49:05.821 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:34592
+17:49:05.929 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: A   :0  �����      test.$cmd     ����   serverStatus       �? 
+17:49:08.644 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:47984
+17:49:08.704 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: *1
+$4
+info
+
+17:49:11.417 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:60618
+17:49:11.453 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: �
+17:49:14.277 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:44460
+17:49:14.299 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GIOP  $                abcdef     get     
+17:49:16.972 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:55940
+17:49:16.997 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  MQTT  nmap
+17:49:19.680 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /223.113.128.154:40114
+17:49:19.735 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CNXN         2  ����host:: 
+18:17:04.140 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:33100
+18:17:04.195 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+18:17:10.171 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:33146
+18:17:10.172 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+18:17:14.192 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:47972
+18:17:14.193 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+18:17:19.145 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:47988
+18:17:19.146 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+18:21:42.658 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /78.108.177.54:37974
+18:21:44.712 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.0
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)
+Accept: */*
+
+
+18:22:14.951 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+18:26:36.086 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /38.46.220.87:60458
+18:26:36.087 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT www.baidu.com:443 HTTP/1.1
+Host: www.baidu.com:443
+User-Agent: Go-http-client/1.1
+
+
+18:32:22.764 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /87.236.176.54:45227
+18:37:05.515 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /1.34.146.59:57653
+18:37:05.516 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.0
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Connection: close
+
+
+18:58:33.264 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /185.224.128.17:44984
+18:58:33.265 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  
+18:58:33.297 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /185.224.128.17:44976
+18:58:33.297 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息:  P    example.com 
+18:58:33.298 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /185.224.128.17:44962
+18:58:33.298 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:80 HTTP/1.1
+Host: example.com:80
+Connection: keep-alive
+
+ 
+19:03:10.184 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29390
+19:03:10.185 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+19:03:11.741 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+19:03:51.331 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /154.216.20.210:44094
+19:03:51.332 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT 45.61.137.126:7227 HTTP/1.1
+Host: 45.61.137.126:7227
+User-Agent: Python/3.9 python-socks/2.0.3
+
+
+19:03:51.541 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+19:15:48.402 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:52588
+19:15:48.989 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+19:15:53.537 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:46784
+19:15:53.541 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+19:15:58.584 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:46796
+19:15:58.808 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+19:16:03.576 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:49218
+19:16:04.755 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+19:18:54.389 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /198.235.24.129:54819
+19:18:56.387 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.0
+User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+Accept: */*
+
+
+19:19:25.352 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+19:31:22.371 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /154.213.184.18:52338
+19:31:22.373 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+19:46:29.869 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:41596
+19:46:29.870 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+19:46:34.901 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:41606
+19:46:34.907 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+19:46:39.877 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:41378
+19:46:39.878 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+19:46:45.992 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:41394
+19:46:45.992 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+19:52:43.086 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /122.117.7.53:34206
+19:52:43.092 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /122.117.7.53:34240
+19:52:43.094 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.0
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Connection: close
+
+
+19:52:43.100 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.0
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Connection: close
+
+
+20:09:49.896 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:46756
+20:09:49.906 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+20:09:55.015 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:46758
+20:09:55.103 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+20:10:00.013 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:43020
+20:10:00.515 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+20:10:06.045 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:43022
+20:10:06.046 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+20:23:16.469 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /199.45.155.67:41566
+20:23:18.413 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+20:36:35.227 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /154.213.187.52:47618
+20:36:35.236 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT google.com:443 HTTP/1.1
+Host: google.com:443
+User-Agent: Go-http-client/1.1
+
+
+20:36:35.240 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+20:50:17.702 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /185.213.169.42:56982
+20:50:17.703 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.1
+Host: 106.75.240.117:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Length: 0
+
+
+20:52:48.558 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:37066
+20:52:48.559 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+20:52:53.580 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:35262
+20:52:53.581 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+20:52:58.610 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:35266
+20:52:58.612 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+20:53:03.613 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:56334
+20:53:03.614 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+21:04:21.818 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29101
+21:04:21.819 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+21:04:23.681 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+21:07:55.828 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:42910
+21:07:55.830 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+21:08:00.829 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:48638
+21:08:00.830 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+21:08:05.835 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:48650
+21:08:05.836 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+21:08:10.831 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:33656
+21:08:10.832 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+21:58:19.678 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:35976
+21:58:19.679 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+21:58:24.675 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:35990
+21:58:24.676 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+21:58:29.700 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:42130
+21:58:30.875 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+21:58:35.887 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:42132
+21:58:35.888 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+22:14:42.583 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:60492
+22:14:42.585 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+22:14:48.634 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:60498
+22:14:48.635 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+22:14:49.647 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28764
+22:14:49.648 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:14:52.633 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:38922
+22:14:52.634 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+22:14:55.357 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:14:57.634 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:38942
+22:14:57.634 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+22:24:52.653 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28446
+22:24:52.660 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:26:30.059 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:26:56.975 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28973
+22:26:56.976 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:29:47.848 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:30:03.443 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29454
+22:30:03.462 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:32:58.027 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:37:08.562 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28402
+22:37:08.563 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:37:15.372 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:39:24.865 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28718
+22:39:24.866 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:39:36.265 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:40:59.134 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28954
+22:40:59.135 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:41:53.721 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:42:17.621 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29151
+22:42:17.623 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:42:39.150 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:43:26.755 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29484
+22:43:26.756 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:45:36.568 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /74.82.47.50:61535
+22:45:36.569 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET / HTTP/1.1
+Host: 106.75.240.117:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: */*
+Accept-Encoding: gzip
+
+
+22:48:46.241 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28294
+22:48:46.242 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:51:06.315 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:51:30.331 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:28673
+22:51:30.332 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:51:31.951 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:57082
+22:51:31.952 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+22:51:37.489 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:57094
+22:51:37.490 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+22:51:39.522 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:51:42.512 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:60314
+22:51:42.856 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+22:51:47.510 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /178.215.238.108:60316
+22:51:47.511 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+22:56:24.524 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29368
+22:56:24.525 [nioEventLoopGroup-3-1] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:56:59.529 [nioEventLoopGroup-3-1] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:57:44.088 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29510
+22:57:44.089 [nioEventLoopGroup-3-2] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:58:00.735 [nioEventLoopGroup-3-2] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:58:38.050 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:29614
+22:58:38.052 [nioEventLoopGroup-3-3] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:58:52.010 [nioEventLoopGroup-3-3] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+22:59:26.588 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端连接： /27.190.156.183:27697
+22:59:26.590 [nioEventLoopGroup-3-4] INFO  com.gaia.nettyHandler.ConnectionHandler - 客户端消息: 大傻逼
+22:59:52.261 [nioEventLoopGroup-3-4] ERROR com.gaia.nettyHandler.ConnectionHandler - 发生异常: 
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]

@@ -1,1 +1,3 @@
 /home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/App.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/server/NettyServer.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/nettyHandler/ConnectionHandler.java
