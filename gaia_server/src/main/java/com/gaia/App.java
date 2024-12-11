@@ -3,6 +3,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.gaia.server.NettyServer;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * Gaia
  *
