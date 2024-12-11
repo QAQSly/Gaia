@@ -6,14 +6,15 @@ import com.gaia.server.NettyServer;
 /**
  * Gaia
  *
- */
+ */
+@Slf4j
 public class App 
 {
     private static final Logger logger = LogManager.getLogger(App.class);
 
     public static void main( String[] args )
     {
-        logger.info("========开启服务============");
+        log.info("========开启服务============");
         NettyServer.startServer();
     }
 
