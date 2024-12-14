@@ -7,12 +7,12 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
+
 import com.gaia.nettyHandler.ConnectionHandler;
 
+@Slf4j
 public class NettyServer {
-    private static final Logger logger = LogManager.getLogger(NettyServer.class);
     public static void startServer() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
@@ -30,12 +30,12 @@ public class NettyServer {
 
             ChannelFuture cf = sb.bind(8080).sync();
             if (cf != null) {
-                logger.info("=====start Server=========");
+                log.info("=====start Server=========");
             }
             cf.channel().closeFuture().sync();
 
         } catch (InterruptedException err) {
-             logger.error("Error occurred while starting the server", err);
+             log.error("Error occurred while starting the server", err);
         } finally {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();

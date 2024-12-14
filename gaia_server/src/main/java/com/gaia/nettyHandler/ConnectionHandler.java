@@ -2,17 +2,17 @@ package com.gaia.nettyHandler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
+
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 
+@Slf4j
 public class ConnectionHandler extends ChannelInboundHandlerAdapter {
-    private static final Logger logger = LogManager.getLogger(ConnectionHandler.class);
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        logger.info("客户端连接： {}", ctx.channel().remoteAddress());
+        log.info("客户端连接： {}", ctx.channel().remoteAddress());
         String message = "你才是大傻逼";
         ctx.writeAndFlush(Unpooled.copiedBuffer(message, io.netty.util.CharsetUtil.UTF_8));
     }
@@ -24,7 +24,7 @@ public class ConnectionHandler extends ChannelInboundHandlerAdapter {
 
             String message = buf.toString(io.netty.util.CharsetUtil.UTF_8);
 
-            logger.info("客户端消息: {}", message);
+            log.info("客户端消息: {}", message);
             buf.release();
         } else {
             super.channelRead(ctx, msg);
@@ -33,7 +33,7 @@ public class ConnectionHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        logger.error("发生异常: ", cause);
+        log.error("发生异常: ", cause);
         ctx.close();
     }
 }
