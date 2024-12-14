@@ -17,7 +17,7 @@ public class App
     public static void main( String[] args )
     {
         log.info("========开启服务============");
-        NettyServer.startServer();
+        // NettyServer.startServer();
     }
 
 }
