@@ -1205,3 +1205,5 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [gaia_server-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
 	at java.lang.Thread.run(Thread.java:840) [?:?]
+15:26:57.467 [main] INFO  com.gaia.App - ========开启服务============
+15:26:57.632 [main] INFO  com.gaia.server.NettyServer - =====start Server=========

@@ -1,3 +1,7 @@
 /home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/App.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/rpc/RpcResponse.java
 /home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/server/NettyServer.java
 /home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/nettyHandler/ConnectionHandler.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/rpc/RpcRequest.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/serializer/Serializer.java
+/home/ubuntu/Gaia/gaia_server/src/main/java/com/gaia/serializer/SerializerImp.java
