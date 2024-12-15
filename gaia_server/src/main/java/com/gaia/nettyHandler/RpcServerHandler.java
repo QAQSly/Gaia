@@ -34,9 +34,8 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
 
             try {
 
-                byte[] bytes = new byte[byteBuf.readableBytes()];
-                byteBuf.readBytes(bytes);
-                request = serializerImp.deserializer(bytes, RpcRequest.class);
+        
+                request = serializerImp.deserializerJson(message, RpcRequest.class);
 
             } catch (Exception e) {
                 log.info("反序列化失败");

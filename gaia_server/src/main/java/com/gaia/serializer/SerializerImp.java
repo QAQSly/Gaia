@@ -26,4 +26,14 @@ public class SerializerImp implements Serializer {
         return null;
     }
 
+    @Override
+    public <T> T deserializerJson(String json, Class<T> clazz) {
+        try {
+           objectMapper.readValue(json, clazz); 
+        } catch (Exception e) {
+            throw new RuntimeException("反序列化失败", e);
+        }
+        return null;
+    }
+
 }
