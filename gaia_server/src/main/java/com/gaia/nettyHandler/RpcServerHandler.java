@@ -2,20 +2,19 @@ package com.gaia.nettyHandler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.util.ReferenceCounted;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 import lombok.extern.slf4j.Slf4j;
 
-import java.nio.ByteBuffer;
+
 
 import com.gaia.rpc.RpcRequest;
 import com.gaia.rpc.RpcResponse;
 import com.gaia.serializer.SerializerImp;
 import com.gaia.service.ServiceRegistry;
 
-@SuppressWarnings("rawtypes")
+
 @Slf4j
-public class RpcServerHandler extends SimpleChannelInboundHandler {
+public class RpcServerHandler extends ChannelInboundHandlerAdapter {
     private final ServiceRegistry serviceRegistry;
     private RpcRequest request;
     private final SerializerImp serializerImp = new SerializerImp();
@@ -24,7 +23,7 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
         this.serviceRegistry = serviceRegistry;
     }
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, Object arg1) throws Exception {
+    public void channelRead(ChannelHandlerContext ctx, Object arg1) throws Exception {
 
         if (arg1 instanceof ByteBuf) {
             ByteBuf byteBuf = (ByteBuf) arg1;
@@ -36,6 +35,7 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
 
         
                 request = serializerImp.deserializerJson(message, RpcRequest.class);
+                
                 if (request != null) {
                     log.info("反序列化成功" +
                     "类名: " + 
@@ -63,6 +63,12 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
 
         Object result = service.getClass().getMethod(request.getClassName(), request.getParamTypes()).invoke(service, request.getParameters());
         ctx.writeAndFlush(new RpcResponse(result, null));
+    }
+
+     @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        log.error("发生异常: ", cause);
+        ctx.close();
     }
     
 }

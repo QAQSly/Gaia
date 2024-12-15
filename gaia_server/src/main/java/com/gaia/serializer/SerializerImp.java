@@ -2,6 +2,9 @@ package com.gaia.serializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class SerializerImp implements Serializer {
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -9,31 +12,29 @@ public class SerializerImp implements Serializer {
     public byte[] serializer(Object obj) {
         try {
             
-            objectMapper.writeValueAsString(obj);
+            return objectMapper.writeValueAsString(obj).getBytes();
         } catch (Exception e) {
             throw new RuntimeException("序列化失败", e);
         }
-        return null;
     }
 
     @Override
     public <T> T deserializer(byte[] bytes, Class<T> clazz) {
         try {
-            objectMapper.readValue(bytes, clazz);
+            return objectMapper.readValue(bytes, clazz);
         } catch (Exception e) {
             throw new RuntimeException("反序列化失败", e);
         }
-        return null;
     }
 
     @Override
     public <T> T deserializerJson(String json, Class<T> clazz) {
         try {
-           objectMapper.readValue(json, clazz); 
+           return objectMapper.readValue(json, clazz); 
         } catch (Exception e) {
+            log.info("反序列化失败", e);
             throw new RuntimeException("反序列化失败", e);
         }
-        return null;
     }
 
 }
