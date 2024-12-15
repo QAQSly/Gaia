@@ -1,6 +1,7 @@
 package com.gaia.nettyHandler;
 
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import lombok.extern.slf4j.Slf4j;
@@ -35,7 +36,7 @@ public class RpcServerHandler extends ChannelInboundHandlerAdapter {
 
         
                 request = serializerImp.deserializerJson(message, RpcRequest.class);
-                
+
                 if (request != null) {
                     log.info("反序列化成功" +
                     "类名: " + 
@@ -57,12 +58,17 @@ public class RpcServerHandler extends ChannelInboundHandlerAdapter {
         Object service = serviceRegistry.getRegister(request.getClassName());
 
         if (service == null) {
-            ctx.writeAndFlush(new RpcResponse(null, "服务不存在"));
+            String message = serializerImp.serializerJson(new RpcResponse(null, "服务不存在"));
+            ByteBuf buf = Unpooled.copiedBuffer(message, io.netty.util.CharsetUtil.UTF_8);
+            ctx.writeAndFlush(buf);
             return;
         }
 
         Object result = service.getClass().getMethod(request.getClassName(), request.getParamTypes()).invoke(service, request.getParameters());
-        ctx.writeAndFlush(new RpcResponse(result, null));
+        String message = serializerImp.serializerJson(new RpcResponse(result, null));
+        log.info("响应序列化" + message);
+        ByteBuf buf = Unpooled.copiedBuffer(message, io.netty.util.CharsetUtil.UTF_8);
+        ctx.writeAndFlush(buf);
     }
 
      @Override

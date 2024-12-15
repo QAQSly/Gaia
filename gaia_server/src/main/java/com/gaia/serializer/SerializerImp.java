@@ -37,4 +37,13 @@ public class SerializerImp implements Serializer {
         }
     }
 
+    @Override
+    public String serializerJson(Object obj) {
+        try {
+            return objectMapper.writeValueAsString(obj);
+        } catch (Exception e) {
+            throw new RuntimeException("序列化失败", e);
+        }
+    }
+
 }
