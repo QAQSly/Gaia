@@ -29,13 +29,17 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
         if (arg1 instanceof ByteBuf) {
             ByteBuf byteBuf = (ByteBuf) arg1;
 
+            String message = byteBuf.toString(io.netty.util.CharsetUtil.UTF_8);
+            log.info("接收到消息：{}", message);
 
             try {
+
                 byte[] bytes = new byte[byteBuf.readableBytes()];
                 byteBuf.readBytes(bytes);
                 request = serializerImp.deserializer(bytes, RpcRequest.class);
+
             } catch (Exception e) {
-                log.info("序列化失败");
+                log.info("反序列化失败");
             } finally {
                 byteBuf.release();
             }
