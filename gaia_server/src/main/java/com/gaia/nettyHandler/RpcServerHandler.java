@@ -36,6 +36,13 @@ public class RpcServerHandler extends SimpleChannelInboundHandler {
 
         
                 request = serializerImp.deserializerJson(message, RpcRequest.class);
+                if (request != null) {
+                    log.info("反序列化成功" +
+                    "类名: " + 
+                    request.getClassName() + 
+                    "方法名: " +
+                    request.getMethodName());
+                }
 
             } catch (Exception e) {
                 log.info("反序列化失败");
