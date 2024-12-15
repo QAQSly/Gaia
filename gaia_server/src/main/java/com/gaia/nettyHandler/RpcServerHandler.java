@@ -64,7 +64,7 @@ public class RpcServerHandler extends ChannelInboundHandlerAdapter {
             return;
         }
 
-        Object result = service.getClass().getMethod(request.getClassName(), request.getParamTypes()).invoke(service, request.getParameters());
+        Object result = service.getClass().getMethod(request.getMethodName(), request.getParamTypes()).invoke(service, request.getParameters());
         String message = serializerImp.serializerJson(new RpcResponse(result, null));
         log.info("响应序列化" + message);
         ByteBuf buf = Unpooled.copiedBuffer(message, io.netty.util.CharsetUtil.UTF_8);
