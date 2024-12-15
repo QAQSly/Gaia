@@ -13,8 +13,8 @@ public class ServiceRegistry {
         log.info("注册服务" + className);
     }
 
-    public void getRegister(String className) {
-        services.get(className);
+    public Object getRegister(String className) {
         log.info("获取服务" + className);
+        return services.get(className);
     }
 }

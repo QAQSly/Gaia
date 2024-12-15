@@ -7,13 +7,24 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 import com.gaia.nettyHandler.ConnectionHandler;
+import com.gaia.nettyHandler.RpcServerHandler;
+import com.gaia.service.ServiceRegistry;
 
 @Slf4j
+@Data
 public class NettyServer {
-    public static void startServer() {
+    private final int port;
+    private final ServiceRegistry serviceRegistry;
+
+    public NettyServer(int port, ServiceRegistry serviceRegistry) {
+        this.port = port;
+        this.serviceRegistry = serviceRegistry;
+    }
+    public  void startServer() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
@@ -24,11 +35,12 @@ public class NettyServer {
             .childHandler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel ch) {
-                    ch.pipeline().addLast(new ConnectionHandler());
+                    // ch.pipeline().addLast(new ConnectionHandler());
+                    ch.pipeline().addLast(new RpcServerHandler(serviceRegistry));
                 }
             });
 
-            ChannelFuture cf = sb.bind(8080).sync();
+            ChannelFuture cf = sb.bind(this.port).sync();
             if (cf != null) {
                 log.info("=====start Server=========");
             }

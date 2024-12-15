@@ -1,7 +1,9 @@
 package com.gaia;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 import com.gaia.server.NettyServer;
+import com.gaia.service.HelloService;
+import com.gaia.service.HelloServiceImp;
+import com.gaia.service.ServiceRegistry;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,11 +14,14 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App 
 {
-    private static final Logger logger = LogManager.getLogger(App.class);
 
     public static void main( String[] args )
     {
         log.info("========开启服务============");
+        ServiceRegistry serviceRegistry = new ServiceRegistry();
+        serviceRegistry.register(HelloService.class.getName(), new HelloServiceImp());
+        NettyServer server = new NettyServer(8080, serviceRegistry);
+        server.startServer();
         // NettyServer.startServer();
     }
 
